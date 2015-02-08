@@ -1,0 +1,29 @@
+{
+  "name": "2-9-node-beginner",
+  "version": "1.0.0",
+  "description": "Assignment for Code Fellows JavaScript Development accelerator (work through the Node Beginner Book)",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samhamm/2-9-node-beginner.git"
+  },
+  "author": "Sam Hamm <samhamm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samhamm/2-9-node-beginner/issues"
+  },
+  "homepage": "https://github.com/samhamm/2-9-node-beginner",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-simple-mocha": "^0.4.0",
+    "jshint": "^2.6.0",
+    "mocha": "^2.1.0"
+  }
+}
